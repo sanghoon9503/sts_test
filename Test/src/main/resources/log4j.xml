@@ -11,8 +11,9 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="KOSA.spring.test">
-		<level value="info" />
+	<logger name="com.sts.test">
+		<!--  <level value = "info" /> -->
+		<level value = "debug "/>
 	</logger>
 	
 	<!-- 3rdparty Loggers -->
@@ -34,7 +35,8 @@
 
 	<!-- Root Logger -->
 	<root>
-		<priority value="warn" />
+		<!--  <priority value="warn" /> -->
+		<priority value="debug"/>
 		<appender-ref ref="console" />
 	</root>
 	
