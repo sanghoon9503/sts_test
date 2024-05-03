@@ -19,6 +19,7 @@
 </h1>
 
 	<a href = "add">add</a><br/>
+	<a href = "add3">add3</a><br/>
 	<a href = "add2Form">add2Form</a><br/>
 	<a href = "add3Form">add3Form</a><br/>
 	

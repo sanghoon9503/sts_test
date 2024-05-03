@@ -16,6 +16,7 @@ public class SampleController {
 	//지금 이 컨트롤러는 사용자에게 전달되는 값은 없다
 
 	@RequestMapping(value="/ex1", method = RequestMethod.GET)
+	//"/ex1"이라는 값으로 GET방법으로 요청이 오면 다음 함수를 실행한다.
     public void ex1(String name, int age){
         log.info("ex1........");
         log.info("name: " + name);
