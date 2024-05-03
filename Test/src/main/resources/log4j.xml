@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.sts.test">
+	<logger name="org.kosa.test">
 		<!--  <level value = "info" /> -->
 		<level value = "debug "/>
 	</logger>
