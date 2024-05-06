@@ -1,5 +1,6 @@
 package KOSA.spring.test;
 
+import java.time.LocalDate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,5 +31,12 @@ public class SampleController {
         log.info("name: " + name);
         log.info("age: " + age);
     }
+	
+    @GetMapping("/ex3")
+    public void ex3(LocalDate dueDate){
+        log.info("ex3........");
+        log.info("dueDate: " + dueDate);
+    }
+	
 	
 }
